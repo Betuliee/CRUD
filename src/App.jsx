@@ -31,7 +31,7 @@ function App() {
       id: v4(),
       title: bookName,
       date: new Date().toLocaleString(),
-      isRead: true,
+      isRead: false,
     };
 
     console.log('Yeni kitap', newBook)
